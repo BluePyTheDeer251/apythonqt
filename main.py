@@ -1,14 +1,18 @@
 # This Python file uses the following encoding: utf-8
 import sys
+import numpy as np
 from PySide6.QtWidgets import QApplication
 
-def(AppOpening):
-    if app.exec  = 1:
+def AppOpening():
+    if app.exec()  == 1:
         print("Welcome!")
-        else:
-            return 0;
 
-AppOpening()
+np #So no warnings arrive (read below)
+ #I have no idea what I'm doing, but I love it
+
+
+
+
 
 
 
