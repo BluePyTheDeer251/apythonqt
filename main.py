@@ -3,6 +3,7 @@ import sys
 import numpy as np
 from PySide6.QtWidgets import QApplication
 
+print "Yeah, u wont read this, ever."
 def AppOpening():
     if app.exec()  == 1:
         print("Welcome!")
