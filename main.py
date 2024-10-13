@@ -5,18 +5,12 @@ from PySide6.QtWidgets import QApplication
 
 print "Yeah, u wont read this, ever."
 def AppOpening():
-    if app.exec()  == 1:
+    if app.exec()  == True:
         print("Welcome!")
 
 np #So no warnings arrive (read below)
  #I have no idea what I'm doing, but I love it
-
-
-
-
-
-
-
+AppOpening(True)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
